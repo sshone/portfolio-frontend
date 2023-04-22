@@ -26,7 +26,7 @@ function ScrollToTopButton() {
       {isVisible && (
         <div className="p-10 fixed bottom-0 right-0">
           <button
-            className="h-16 w-16  rounded-full bg-blue-500 hover:bg-red-500 text-white font-bold flex items-center justify-center"
+            className="h-16 w-16 rounded-full bg-blue-500 hover:bg-red-500 text-white font-bold flex items-center justify-center"
             onClick={scrollUp}
           >
             <AiOutlineArrowUp size={"2em"} />
