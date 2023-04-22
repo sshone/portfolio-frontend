@@ -1,11 +1,17 @@
 import Header from "@/components/Header";
+import ScrollToTopButton from "../ScrollToTopButton";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div className="bg-background">
+    <div className="bg-background min-h-screen">
       <Header />
-      <div className="max-w-7xl mx-auto flex flex-col min-h-screen">
+      <div className="max-w-7xl mx-auto flex flex-col">
         <main className="flex-grow">{children}</main>
+        <ScrollToTopButton />
         {/* <Footer /> */}
       </div>
     </div>

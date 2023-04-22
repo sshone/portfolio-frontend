@@ -5,9 +5,7 @@ export default function Header() {
     <div className="text-white font-header">
       <header className="py-6">
         <div className="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
-          <Link href="#" className="text-2xl font-bold">
-            sshone.dev
-          </Link>
+          <h1 className="text-2xl font-bold">sshone.dev</h1>
           <div className="hidden md:flex space-x-12">
             <Link href="#" className="text-selected-text">
               home
@@ -16,7 +14,7 @@ export default function Header() {
             <Link href="#projects">projects</Link>
           </div>
           <div className="md:hidden">
-            <p>TODO: Replace with Hamburger menu</p>
+            <p>TODO: Hamburger menu</p>
           </div>
         </div>
       </header>

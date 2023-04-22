@@ -22,8 +22,8 @@ function HeroText() {
         </div>
         <div>
           <p className="max-w-md mt-3">
-            I am a <em>full-stack</em> software developer, specialising in .NET
-            and React development.
+            I am a full-stack software developer with six years of professional
+            experience, specialising in .NET and React development.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-x-10 gap-y-4 pb-24 py-6">
             <Link href="#projects">
