@@ -10,10 +10,10 @@ export default function Header() {
           </Link>
           <div className="hidden md:flex space-x-12">
             <Link href="#" className="text-selected-text">
-              Home
+              home
             </Link>
-            <Link href="#about">About</Link>
-            <Link href="#projects">Projects</Link>
+            <Link href="#about">about</Link>
+            <Link href="#projects">projects</Link>
           </div>
           <div className="md:hidden">
             <p>TODO: Replace with Hamburger menu</p>

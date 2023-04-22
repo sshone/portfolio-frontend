@@ -1,6 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Poppins, Inter } from "@next/font/google";
+import { Poppins, Inter } from "next/font/google";
 import RootLayout from "@/components/layouts/RootLayout";
 
 const poppins = Poppins({
