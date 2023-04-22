@@ -48,7 +48,7 @@ function HeroText() {
           </Link>
 
           <Link
-            href="https://www.linkedin.com/in/stuartshone/"
+            href="https://www.linkedin.com/in/stuart-shone-069191114/"
             target="_blank"
             rel="noopener noreferrer"
           >
