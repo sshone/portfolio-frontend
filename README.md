@@ -24,11 +24,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
 
-```git clone https://github.com/your-username/portfolio.git```
+```git clone https://github.com/sshone/portfolio-frontend.git```
 
 2. Change the working directory
 
-```cd portfolio```
+```cd portfolio-frontend```
 
 3. Install dependencies
 
