@@ -11,7 +11,7 @@ type SkillCardProps = {
 
 function SkillCard({ skill }: SkillCardProps) {
   return (
-    <div className="flex flex-col items-center justify-center m-2 md:m-4 p-2 md:p-2 rounded-lg bg-[#dddddd] shadow-lg hover:scale-110 transition duration-500 scale-75 md:scale-100">
+    <div className="flex flex-col items-center justify-center md:m-4 p-2 md:p-2 rounded-lg bg-[#dddddd] shadow-lg hover:scale-110 transition duration-500 scale-75 md:scale-100">
       <Image
         src={skill.iconImage}
         alt={skill.skill}

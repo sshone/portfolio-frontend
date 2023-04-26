@@ -1,11 +1,7 @@
 import Link from "next/link";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 
-type HeroTextProps = {
-  projectRef: React.RefObject<HTMLDivElement>;
-};
-
-function HeroText({ projectRef }: HeroTextProps) {
+function HeroText() {
   return (
     <div className="flex justify-center flex-wrap mx-auto font-hero gap-28 mt-10 md:flex-nowrap md:h-screen md:-mt-16 md:gap-0 md:px-6">
       <div className="flex flex-col justify-center items-start gap-2 md:w-full">
@@ -32,8 +28,12 @@ function HeroText({ projectRef }: HeroTextProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 px-10 gap-x-10 gap-y-4 pb-24 py-6">
             <button
               className="px-6 py-2 bg-theme hover:bg-blue-800 rounded w-full"
-              onClick={() =>
-                projectRef.current?.scrollIntoView({ behavior: "smooth" })
+              onClick={() => {
+                const projectAnchor = document.querySelector('#projects');
+                if (projectAnchor) {
+                  projectAnchor.scrollIntoView({ behavior: "smooth" })
+                }
+              }
               }
             >
               My Projects

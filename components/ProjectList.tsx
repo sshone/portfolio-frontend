@@ -61,7 +61,7 @@ const projects = [
 
 function ProjectList() {
   return (
-    <div>
+    <div id="projects">
       <h1 className="text-4xl">Projects</h1>
       <h3 className="uppercase tracking-[3px] text-gray-500 text-sm pb-10">
         A collection of some of the projects I have worked on...

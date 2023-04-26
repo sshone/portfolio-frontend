@@ -13,11 +13,9 @@ export default function Home() {
         <title>Stuart.dev</title>
       </Head>
       <main>
-        <Hero projectRef={scrollToRef}></Hero>
+        <Hero />
         <Skills />
-        <div ref={scrollToRef}>
-          <ProjectList />
-        </div>
+        <ProjectList />
       </main>
     </div>
   );

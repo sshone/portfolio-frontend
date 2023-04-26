@@ -30,6 +30,10 @@ const skills = [
     iconImage: "/images/icons/mongodb.svg",
   },
   {
+    skill: "Redis",
+    iconImage: "/images/icons/redis.svg",
+  },
+  {
     skill: "React",
     iconImage: "/images/icons/react.svg",
   },
@@ -42,8 +46,16 @@ const skills = [
     iconImage: "/images/icons/tailwindcss.svg",
   },
   {
+    skill: "SQL Server",
+    iconImage: "/images/icons/microsoft-sql-server.svg",
+  },
+  {
     skill: "Git",
     iconImage: "/images/icons/git.svg",
+  },
+  {
+    skill: "GitHub",
+    iconImage: "/images/icons/github.svg",
   },
   {
     skill: "HTML",
@@ -52,6 +64,18 @@ const skills = [
   {
     skill: "CSS",
     iconImage: "/images/icons/css.svg",
+  },
+  {
+    skill: "Jira",
+    iconImage: "/images/icons/jira.svg",
+  },
+  {
+    skill: "Bamboo",
+    iconImage: "/images/icons/bamboo.svg",
+  },
+  {
+    skill: "Jest",
+    iconImage: "/images/icons/jest.svg",
   },
 ];
 

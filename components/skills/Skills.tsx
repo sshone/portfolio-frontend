@@ -3,7 +3,7 @@ import SkillList from "./SkillList";
 
 function Skills() {
   return (
-    <div className="min-h-screen px-6 pt-6 md:pt-0">
+    <div className="min-h-screen px-6 pt-6 md:pt-0" id="skills">
       <h1 className="text-4xl">Skills & Experience</h1>
       <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
         A full-stack programmer With six years of professional experience
