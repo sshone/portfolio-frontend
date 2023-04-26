@@ -35,15 +35,27 @@ const projects = [
   },
   {
     title: "Tetris Game",
-    description: "A simple recreation of Tetris I worked on to learn more about developing for embedded systems, runs on a STM32F4 Discovery Board",
-    image: "/images/placeholder-630-400.svg",
-    tags: ["C++", "Embedded Systems", "STM32F4 Discovery Board"],
+    description: "A recreation of Tetris, programmed in C. I started this project to learn more about development for embedded systems. Runs on an STM32F4 Discovery Board",
+    image: "/images/projects/tetris-project.jpg",
+    tags: ["C", "Embedded Systems", "STM32F4 Discovery Board"],
   },
   {
     title: "Room Finder",
     description: "A GIS application for mapping and finding rooms in buildings across the UEA campus. Involved mapping building floor plans using GIS software and developing a web application to display the data",
-    image: "/images/placeholder-630-400.svg",
+    image: "/images/projects/room-finder-waypoint-editor.jpg",
     tags: ["JavaScript", "Python", "GIS", "Leaflet.js", "Shell script"],
+  },
+  {
+    title: "LIFX Lightbulb - Dominant Colour Controller",
+    description: "A simple application I wrote back in 2016 to control the colour of a LIFX lightbulb, setting the current colour to the dominant colour of the screen. Written in C# using the LIFX LAN protocol",
+    image: "/images/placeholder-630-400.svg",
+    tags: ["C#"],
+  },
+  {
+    title: "Discord Music Player Bot - 2016",
+    description: "A Discord bot that plays music from YouTube, written in Python using the Discord.py API wrapper. Hosted on a Raspberry Pi and used for my private server.",
+    image: "/images/placeholder-630-400.svg",
+    tags: ["Python", "Raspberry Pi"],
   },
 ];
 
@@ -54,7 +66,7 @@ function ProjectList() {
       <h3 className="uppercase tracking-[3px] text-gray-500 text-sm pb-10">
         A collection of some of the projects I have worked on...
       </h3>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center ">
         {projects.map((project, idx) => (
           <ProjectCard key={idx} project={project} />
         ))}

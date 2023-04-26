@@ -25,7 +25,7 @@ function HeroText({ projectRef }: HeroTextProps) {
           </h1>
         </div>
         <div>
-          <p className="max-w-md mt-3">
+          <p className="max-w-md mt-3 text-md md:text-lg">
             I am a full-stack software developer with six years of professional
             experience, specialising in .NET and React development.
           </p>

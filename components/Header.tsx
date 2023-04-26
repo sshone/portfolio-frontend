@@ -14,7 +14,7 @@ export default function Header() {
             <Link href="#projects">projects</Link>
           </div>
           <div className="md:hidden">
-            <p>TODO: Hamburger menu</p>
+            {/* TODO: Hamburger menu */}
           </div>
         </div>
       </header>
