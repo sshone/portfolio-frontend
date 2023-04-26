@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function Hero() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2 min-h-screen">
       <HeroText />
       <div className="hidden md:inline-flex justify-center items md:ml-10 pb-28">
         <Image

@@ -5,13 +5,13 @@ import RootLayout from "@/components/layouts/RootLayout";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
-  variable: "--header-font",
+  variable: "--poppins-font",
   subsets: ["latin"],
 });
 
 const inter = Inter({
   weight: ["400", "500", "600", "700"],
-  variable: "--hero-font",
+  variable: "--inter-font",
   subsets: ["latin"],
 })
 

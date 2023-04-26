@@ -3,12 +3,13 @@ import SkillList from "./SkillList";
 
 function Skills() {
   return (
-    <div className="min-h-screen md:pt-0 mt-16 flex items-center" id="skills">
+    <div className="min-h-screen mb-24 flex items-center" id="skills">
       <div>
         <h1 className="text-4xl">Skills & Experience</h1>
         <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
           A full-stack programmer With six years of professional experience
         </h3>
+        <hr className="border-gray-200" />
         <div className="max-w-[700px] flex flex-wrap mx-auto py-24 gap-6 text-center justify-center text-md md:text-lg">
           <p>
             I am a full-stack developer, with a specialty in .NET back-end and

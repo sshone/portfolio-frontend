@@ -64,10 +64,11 @@ function ProjectList() {
     <div id="projects" className="min-h-screen md:pt-0 flex items-center">
       <div>
         <h1 className="text-4xl">Projects</h1>
-        <h3 className="uppercase tracking-[3px] text-gray-500 text-sm pb-10">
+        <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
           A collection of some of the projects I have worked on...
         </h3>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+        <hr className="border-gray-200 pb-10" />
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 m-4">
           {projects.map((project, idx) => (
             <ProjectCard key={idx} project={project} />
           ))}
