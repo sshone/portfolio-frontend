@@ -14,7 +14,7 @@ type ProjectCardProps = {
 
 const ProjectCard: FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="md:max-w-sm rounded overflow-hidden shadow-lg text-center font-hero hover:scale-105 transition duration-500">
+    <div className="md:max-w-sm overflow-hidden text-center font-hero hover:scale-105 transition duration-500">
       <Image
         className="object-cover rounded-2xl"
         src={project.image}
