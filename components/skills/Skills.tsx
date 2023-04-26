@@ -3,7 +3,7 @@ import SkillList from "./SkillList";
 
 function Skills() {
   return (
-    <div className="min-h-screen md:pt-0 mt-16 md:-mt-16 flex items-center" id="skills">
+    <div className="min-h-screen md:pt-0 mt-16 flex items-center" id="skills">
       <div>
         <h1 className="text-4xl">Skills & Experience</h1>
         <h3 className="uppercase tracking-[3px] text-gray-500 text-sm">
