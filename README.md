@@ -2,6 +2,8 @@
 
 This is the source code for my personal portfolio website, built using Next.js, React, TypeScript, and Tailwind CSS, and deployed on Netlify.
 
+[Click here to see it in action...](https://www.sshone.dev)
+
 ## Features
 
 - Responsive design with Tailwind CSS
