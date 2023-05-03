@@ -4,6 +4,8 @@ This is the source code for my personal portfolio website, built using Next.js, 
 
 [Click here to see it in action...](https://www.sshone.dev)
 
+![Hero Section](https://user-images.githubusercontent.com/127620387/235958737-46dffd0b-0517-43fa-9067-439ba025d0f1.png)
+
 ## Features
 
 - Responsive design with Tailwind CSS
